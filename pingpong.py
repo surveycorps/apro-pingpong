@@ -19,6 +19,7 @@ import random
 pygame.init()
 
 screen=pygame.display.set_mode((800,480),0,32)
+pygame.display.toggle_fullscreen()
 pygame.display.set_caption("Pong Pong!")
 
 #Creating 2 bars, a ball and background.
